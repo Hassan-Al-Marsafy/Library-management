@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="librarymanagement.LoginController">
+   <children>
+      <Button layoutX="349.0" layoutY="334.0" mnemonicParsing="false" onAction="#SubmitSearchBook" text="Submit" />
+      <Button layoutX="38.0" layoutY="334.0" mnemonicParsing="false" onAction="#BacktoReaderForm" text="Back" />
+      <TextField fx:id="SearchBookName" layoutX="300.0" layoutY="200.0" promptText="Book name" />
+      <Label layoutX="62.0" layoutY="162.0" text="Title" />
+      <Label layoutX="44.0" layoutY="213.0" text="Rent status" />
+      <Label layoutX="14.0" layoutY="28.0" text="Search For a Book">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

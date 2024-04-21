@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="librarymanagement.LoginController">
+   <children>
+      <Label fx:id="welcomeLabel" layoutX="14.0" layoutY="14.0" prefHeight="54.0" prefWidth="586.0" text="Welcome, Librarian!">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="469.0" layoutY="187.0" mnemonicParsing="false" onAction="#AddUser" prefHeight="26.0" prefWidth="110.0" text="Add User" />
+      <Button layoutX="469.0" layoutY="247.0" mnemonicParsing="false" onAction="#RemoveUser" prefHeight="26.0" prefWidth="110.0" text="Remove User" />
+      <Button layoutX="336.0" layoutY="187.0" mnemonicParsing="false" onAction="#AddBook" prefHeight="26.0" prefWidth="110.0" text="Add Book" />
+      <Button layoutX="336.0" layoutY="247.0" mnemonicParsing="false" onAction="#RemoveBook" prefHeight="26.0" prefWidth="110.0" text="Remove Book" />
+      <Button layoutX="469.0" layoutY="301.0" mnemonicParsing="false" onAction="#BlockUser" prefHeight="26.0" prefWidth="110.0" text="BlockUser" />
+      <Button layoutX="47.0" layoutY="187.0" mnemonicParsing="false" onAction="#SearchBook" text="Search for Book" />
+      <Button layoutX="45.0" layoutY="248.0" mnemonicParsing="false" onAction="#SearchReader" text="Search for a user" />
+      <Button layoutX="194.0" layoutY="186.0" mnemonicParsing="false" onAction="#AddToOrderList" text="Add to Orderlist" />
+      <Button layoutX="175.0" layoutY="248.0" mnemonicParsing="false" onAction="#RemoveFromOrderList" text="Remove from OrderList" />
+      <Label layoutX="61.0" layoutY="121.0" text="Search">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="196.0" layoutY="121.0" text="OrderList">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="495.0" layoutY="121.0" text="Users">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="359.0" layoutY="121.0" text="Books">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="336.0" layoutY="301.0" mnemonicParsing="false" onAction="#RentBook" prefHeight="26.0" prefWidth="110.0" text="Rent Book" />
+   </children>
+</AnchorPane>
